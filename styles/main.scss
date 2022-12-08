@@ -67,10 +67,6 @@ section {
            input {
             width: 100%;
             padding: 10px;
-
-            &:invalid {
-                border: 1px solid red;
-            }
            }
            .gs-btn {
             font-family: "Raleway",sans-serif;
@@ -242,10 +238,6 @@ section:nth-child(3) {
             outline: none;
 
             margin-bottom: 10px;
-
-            &:invalid {
-                border: 1px solid red;
-            }
         }
         .button {
             width: 100%;

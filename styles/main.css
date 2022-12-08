@@ -57,9 +57,6 @@ section .info-container .input-section input {
   width: 100%;
   padding: 10px;
 }
-section .info-container .input-section input:invalid {
-  border: 1px solid red;
-}
 section .info-container .input-section .gs-btn {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
@@ -195,9 +192,6 @@ section:nth-child(3) .text-info .testimony-section .image-person .avatar .avatar
   outline: none;
   margin-bottom: 10px;
 }
-.third-section .input-area input:invalid {
-  border: 1px solid red;
-}
 .third-section .input-area .button {
   width: 100%;
   padding: 12px;
@@ -279,7 +273,7 @@ footer .link-spacing {
 @media (min-width: 768px) {
   /*/Desktop Design/*/
   nav img {
-    width: 120px;
+    width: 150px;
     height: 50px;
   }
   .info-section {
@@ -293,9 +287,13 @@ footer .link-spacing {
     height: 350px;
   }
   .info-section .info-container {
+    width: 500px;
     text-align: left;
-    width: 50%;
     order: 1;
+  }
+  .info-section .info-container h3 {
+    font-size: 1.5rem;
+    width: 500px;
   }
   .info-section .info-container .input-section {
     display: flex;
@@ -305,15 +303,11 @@ footer .link-spacing {
   }
   .info-section .info-container .input-section input {
     width: 60%;
-    padding: 8px;
-  }
-  .info-section .info-container .input-section input:invalid::after {
-    outline: red;
-    content: "Enter correct email";
+    padding: 10px;
   }
   .info-section .info-container .input-section .gs-btn {
     width: 40%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 0;
   }
   section:nth-child(3) {
